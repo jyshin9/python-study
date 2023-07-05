@@ -4,7 +4,7 @@ a, b, c = s.split()
 a, c = float(a), float(c)
 
 if b == '+':
-    print(s, "=", a + c)
+
 elif b == '-':
     print(s, "=", a - c)
 elif b == '*':
