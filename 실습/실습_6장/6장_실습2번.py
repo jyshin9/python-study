@@ -6,7 +6,7 @@ a, c = float(a), float(c)
 if b == '+':
 
 elif b == '-':
-    print(s, "=", a - c)
+    print("%.6f = %.6f" s, a - c)
 elif b == '*':
     print(s, "=", a * c)
 elif b == '/':
