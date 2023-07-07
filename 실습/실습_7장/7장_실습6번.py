@@ -6,3 +6,5 @@ print("+를 사용:",A+B)
 
 A.extend(B)
 print("extend()를 사용:",A)
+
+

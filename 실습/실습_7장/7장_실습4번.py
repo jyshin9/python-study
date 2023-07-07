@@ -4,38 +4,29 @@ print("***** if조건문으로 작성 *****")
 
 m = int(input("월을 입력하세요: "))
 
-if m == 1:
-    eng = 'January'
-elif m == 2:
-    eng = 'Feburary'
-elif m == 3:
-    eng = 'March'
-elif m == 4:
-    eng = 'April'
-elif m == 5:
-    eng = 'May'
-elif m == 6:
-    eng = 'June'
-elif m == 7:
-    eng = 'July'
-elif m == 8:
-    eng = 'August'
-elif m == 9:
-    eng = 'September'
-elif m == 10:
-    eng = 'October'
-elif m == 11:
-    eng = 'November'
-elif m == 12:
-    eng = 'December'
-else:
-    print("1부터 12까지 입력하세요.")
+if m == 1: eng = 'January'
+elif m == 2: eng = 'Feburary'
+elif m == 3: eng = 'March'
+elif m == 4: eng = 'April'
+elif m == 5: eng = 'May'
+elif m == 6: eng = 'June'
+elif m == 7: eng = 'July'
+elif m == 8: eng = 'August'
+elif m == 9: eng = 'September'
+elif m == 10: eng = 'October'
+elif m == 11: eng = 'November'
+elif m == 12: eng = 'December'
+else: print("1부터 12까지 입력하세요.")
+
 print(m,"월은", eng,"입니다")
 
 print("***** 리스트로 작성 *****")
+
 L1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 L2 = ['January','Feburary','March','April','May','June','July','August','September','October','November','December']
 
 n = int(input("월을 입력하세요: "))
 
 print(L1[n-1],"월은 ",L2[n-1],"입니다")
+
+
