@@ -4,17 +4,19 @@ a, b, c = s.split()
 a, c = float(a), float(c)
 
 if b == '+':
-
+    r = a + c
 elif b == '-':
-    print("%.6f = %.6f" s, a - c)
+    r = a - c
 elif b == '*':
-    print(s, "=", a * c)
+    r = a * c
 elif b == '/':
     if c != 0:
-        print(s, "=", a / c)
+        r = a / c
     else:
         print("0.000000 로 나누기를 수행할 수 없습니다.")
+        exit()
 else:
     print(b, "지원하지 않는 연산자입니다.")
+    exit()
 
-
+print("{:.6f} {} {:.6f} = {:.6f}".format(a, b, c, r))
